@@ -1,0 +1,58 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffffff"
+        android:padding="8dp">
+
+        <sapphyx.gsd.com.drywall.views.IntrusiveTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dialog Title"
+            android:id="@+id/text_title_dialog"
+            style="@style/Base.DialogWindowTitle.AppCompat"
+            android:gravity="start"
+            android:padding="8dp"
+            android:textSize="16sp"
+            android:textColor="@color/option_text" />
+
+        <sapphyx.gsd.com.drywall.views.IntrusiveTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dialog Content"
+            android:layout_below="@+id/text_title_dialog"
+            android:id="@+id/text_dialog"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:textColor="@color/option_text"
+            android:gravity="start" />
+
+        <Button
+            android:id="@+id/btn_donate"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/text_dialog"
+            android:text="Donate"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_skip"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_below="@+id/text_dialog"
+            android:text="Not Today"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp"
+            android:layout_toStartOf="@+id/btn_donate"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

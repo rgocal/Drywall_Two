@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<notices>
+    <notice>
+        <name>License Dialog</name>
+        <url>https://github.com/PSDev/LicensesDialog</url>
+        <copyright>Copyright 2013 Philip Schiffer</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Picasso</name>
+        <copyright>Copyright 2017</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Blur</name>
+        <copyright>Copyright 2017</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>PhotoView</name>
+        <copyright>Copyright 2017</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>FancyAboutPage</name>
+        <copyright>Copyright 2017</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Spots-Dialog</name>
+        <copyright>Copyright 2017</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Seekbar-Preference</name>
+        <copyright>Copyright 2017</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Picasso-OkHTTP3</name>
+        <copyright>Copyright 2017</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>SpeedDial</name>
+        <copyright>Copyright 2018</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Floating-Tuturial</name>
+        <copyright>Copyright 2017</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>rssParser</name>
+        <copyright>Copyright 2017</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>ImageCropper</name>
+        <copyright>Copyright 2017</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>ImagePicker</name>
+        <copyright>Copyright 2017</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+</notices>

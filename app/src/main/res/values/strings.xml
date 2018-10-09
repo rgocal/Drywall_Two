@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Drywall</string>
+
+    <string name="app_copyright">Copyright \u00A9 2018 GocalSD</string>
+
+    <!-- Wallpapers Stuff -->
+    <string name="no_conn_title">No Connection Found</string>
+    <string name="no_conn_content">Wallpapers are stored on Cloud Server. Please connect to Internet and try again.</string>
+    <string name="download">DOWNLOAD</string>
+    <string name="download_done">Download completed successfully Picture is located at </string>
+    <string name="apply">Apply</string>
+    <string name="set_as">Crop picture and set as…</string>
+    <string name="set_wall_title">Wallpaper set</string>
+    <string name="set_wall_content">Nice choice their! Would like this wall cropped or set as is?</string>
+    <string name="crop_not_available">Some wallpapers provided by Drywall may or may not be suitable for your android device screen resolution. Consider cropping and scaling it properly before applying it.</string>
+    <string name="crop_wall">Crop Wall</string>
+    <string name="set_it">Set it now!</string>
+    <string name="save">Save</string>
+    <string name="done">Done!</string>
+    <string name="progress_dialog_title">Downloading wallpaper</string>
+    <string name="setting_wall_title">Setting pic as wallpaper</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="set_as_wall_done">Picture set as wallpaper successfully Go to Home screen and check it.</string>
+    <string name="error">Error</string>
+    <string name="wall_error">Looks like we ran into a problem…Excuse the dust.</string>
+    <string name="json_error_toast">Error while downloading wallpapers info. Try again later.</string>
+
+    <string name="close">Close</string>
+    <string name="walls_prefix_name">Drywall_</string>
+    <string name="walls_save_location">/Drywall</string>
+    <string name="title_ab_detailed_wallpaper" />
+    <string name="title_activity_detailed_wallpaper">Detailed Wallpaper</string>
+    <string name="selection_title">Choose wallpaper from</string>
+    <string name="papers">Paper Action</string>
+
+    <string name="copyright">Copyright 2016–2018</string>
+    <string name="unable_to_blur">Unable To Blur Current Wallpaper</string>
+    <string name="version">2.01.10</string>
+    <string name="rights">If Drywall contains media that you wish to be removed for legal reasons, Please contact the developer with reasonable reason to be removed and correctful action will be taken. All wallpapers provided by Drywall are free and can be freely managed through the cloud at any time.</string>
+    <string name="alert_message">Networking Error</string>
+    <string name="alert_title">It appears your device does not have an active internet connection it. This application is useless without it thus will now close.</string>
+    <string name="alert_positive">Continue</string>
+    <string name="crop_wait">Please Wait…</string>
+
+    <string name="categoryOne_short">Wallpaper</string>
+    <string name="categoryOne_long">My Wallpaper</string>
+
+    <string name="categoryTwo_short">Featured</string>
+    <string name="categoryTwo_long">Featured Wallpapers</string>
+
+    <string name="disabled_message">Shortcut Disabled</string>
+    <string name="first_public_message">Welcome to Drywall, a material 2 based wallpaper management tool thats smarter than most dashboards available. Enjoy and Thanks for using Drywall!</string>
+    <string name="download_message">Would you like to download this wallpaper? You can find it in the Drywall directory of your internal memory.</string>
+    <string name="apply_message">Set Wallpaper</string>
+    <string name="blur_message">Blurring your wallpaper will consume a considerable amount of ram and cpu usage thus this process may take longer on older devices, would you like to continue? Please wait patiently until process has finished!</string>
+    <string name="first_categories_title">Heads Up</string>
+    <string name="first_categories_message">Server list are still updating so, some of the wallpaper categories may not be up to par with their specific categories. Give it some time and we will have some fresh content live soon!</string>
+    <string name="first_perm_message">In order for Drywall to function correctly, it\'s going to need access to a few run-time permissions. Denying them access will prevent the application from running.</string>
+    <string name="app_donate">Like my work? Consider purchasing my donation key as a token of appreciation for Drywall development.</string>
+    <string name="first_featured_title">Featured Showcase</string>
+    <string name="first_featured_message">This is the featured window. In this tab, Drywall will randomly pick a category to showcase to the user as a preview.</string>
+    <string name="app_info">View application info in the android settings</string>
+
+    <!-- Feeds that will be randomly read in the featured page -->
+    <!-- You can make all of them appear or a few of them -->
+
+    <string-array name="feedsArray">
+        <item>https://gocalsdb.wordpress.com/category/FeaturedWallpaper/feed/</item>
+        <item>https://raw.githubusercontent.com/rgocal/Drywall_Two/master/WallpaperFeeds/Cityscapes.rss</item>
+        <item>https://raw.githubusercontent.com/rgocal/Drywall_Two/master/WallpaperFeeds/Earth.rss</item>
+        <item>https://raw.githubusercontent.com/rgocal/Drywall_Two/master/WallpaperFeeds/Pixel.rss</item>
+    </string-array>
+</resources>

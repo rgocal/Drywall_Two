@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/news_card"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="4dp"
+        android:layout_height="160dp"
+        android:layout_margin="8dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ProgressBar
+                android:id="@+id/address_looking_up"
+                style="@style/Widget.AppCompat.ProgressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:id="@+id/card_image"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="2dp" />
+
+            <FrameLayout
+                android:id="@+id/title_bkg"
+                android:padding="8dp"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal"
+                android:background="@color/transparent_white"
+                android:elevation="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <sapphyx.gsd.com.drywall.views.IntrusiveTextView
+                    android:id="@+id/card_title"
+                    android:text="TITLE"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_gravity="start"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <sapphyx.gsd.com.drywall.views.IntrusiveTextView
+                    android:id="@+id/card_desc"
+                    android:text="10"
+                    android:layout_gravity="end"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </FrameLayout>
+
+        </FrameLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

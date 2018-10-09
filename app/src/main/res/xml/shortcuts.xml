@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="categoryOne"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:shortcutShortLabel="@string/categoryOne_short"
+        android:shortcutLongLabel="@string/categoryOne_long"
+        android:shortcutDisabledMessage="@string/disabled_message"
+        tools:targetApi="n_mr1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="sapphyx.gsd.com.drywall"
+            android:targetClass="sapphyx.gsd.com.drywall.activity.frames.DeviceFrame" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="categoryTwo"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:shortcutShortLabel="@string/categoryTwo_short"
+        android:shortcutLongLabel="@string/categoryTwo_long"
+        android:shortcutDisabledMessage="@string/disabled_message"
+        tools:targetApi="n_mr1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="sapphyx.gsd.com.drywall"
+            android:targetClass="sapphyx.gsd.com.drywall.activity.frames.FeaturedFrame" />
+    </shortcut>
+
+</shortcuts>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:selectable="false"
+        android:icon="@mipmap/ic_launcher_round"
+        android:title="Developed by:"
+        android:summary="GocalSD"/>
+
+    <Preference
+        android:key="pref_license"
+        android:title="Open Source License"
+        android:summary="@string/app_copyright"/>
+
+    <Preference
+        android:key="pref_about"
+        android:title="Drywall Info"
+        android:summary="@string/app_info"/>
+
+    <Preference
+        android:key="pref_more"
+        android:title="More..." />
+
+</PreferenceScreen>

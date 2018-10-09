@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#708c99</color>
+    <color name="colorPrimaryDark">#405059</color>
+    <color name="colorAccent">#395757</color>
+
+    <color name="navbar">#424242</color>
+    <color name="white">#ffffff</color>
+
+    <color name="light_bg">#fafafa</color>
+    <color name="dialogcontent">#6d6d6d</color>
+
+    <color name="semitransparent_white">#80ffffff</color>
+    <color name="transparent_white">#99ffffff</color>
+    <color name="transparent_primary">#427C8DA7</color>
+
+    <color name="content">#cfcfcf</color>
+
+</resources>

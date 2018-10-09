@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jahirfiquitiva.paperboard.activities.DetailedWallpaperActivity">
+    <item
+        android:id="@+id/selection"
+        android:orderInCategory="100"
+        android:title="@string/papers"
+        android:icon="@drawable/ic_photo"
+        app:showAsAction="ifRoom" />
+</menu>

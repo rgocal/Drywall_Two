@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:orderInCategory="0"
+        android:id="@+id/action_item1"
+        android:icon="@drawable/office"
+        android:title="Dashboard"/>
+    <item
+        android:orderInCategory="1"
+        android:id="@+id/action_item2"
+        android:icon="@drawable/arrange_send_backward"
+        android:title="Featured"/>
+    <item
+        android:orderInCategory="2"
+        android:id="@+id/action_item3"
+        android:icon="@drawable/arrange_bring_to_front"
+        android:title="Categories"/>
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_blur"
+        android:icon="@drawable/ic_blur"
+        android:title="Blur Wallpaper"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_rip"
+        android:icon="@drawable/ic_image_rip"
+        android:title="Rip Wallpaper"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_single_offset"
+        android:icon="@drawable/crop_image_menu_flip"
+        android:title="Single Page Offset"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_custom_offset"
+        android:icon="@drawable/ic_settings_overscan"
+        android:title="Custom Offset"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_custom_image"
+        android:icon="@drawable/ic_insert_photo"
+        android:title="Custom Image"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_reset"
+        android:icon="@drawable/codepen"
+        android:title="Reset Device Wallpaper"
+        app:showAsAction="always" />
+</menu>

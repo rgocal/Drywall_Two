@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/colorPrimary">
+
+    <sapphyx.gsd.com.drywall.views.IntrusiveTextView
+        android:id="@+id/permission_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="72dp"
+        android:layout_above="@+id/splash_icon"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Permission Messages"
+        android:textColor="@color/white"
+        android:textSize="27sp" />
+
+    <ImageView
+        android:id="@+id/splash_icon"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/codepen" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splash_icon"
+        android:layout_centerHorizontal="true"
+        android:progressTint="@color/colorPrimaryDark" />
+
+</RelativeLayout>

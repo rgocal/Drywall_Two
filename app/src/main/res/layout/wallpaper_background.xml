@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/wallpaperView"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:elevation="4dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@color/colorPrimary" />
+
+<ScrollView
+    android:layout_marginTop="182dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <sapphyx.gsd.com.drywall.views.IntrusiveTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:text="Drywall Information"
+            android:textColor="@color/colorPrimary"/>
+
+            <LinearLayout
+                android:id="@+id/info_walls"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center|start"
+                android:background="@color/transparent_primary"
+                android:padding="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:orientation="horizontal"
+                tools:ignore="Overdraw">
+                    <com.mikhaellopez.circularimageview.CircularImageView
+                        android:src="@drawable/ic_insert_photo"
+                        app:civ_border_color="@color/colorPrimary"
+                        android:tint="@color/white"
+                        app:civ_border_width="4dp"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        tools:ignore="ContentDescription"/>
+                    <sapphyx.gsd.com.drywall.views.IntrusiveTextView
+                        android:text="Wallpapers"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="8dp"
+                        android:gravity="center_vertical"
+                        android:lineSpacingMultiplier="1.2"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp"/>
+                <sapphyx.gsd.com.drywall.views.NumberTextview
+                    android:id="@+id/wallCount"
+                    android:text="0"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"/>
+            </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/info_categories"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center|start"
+            android:background="@color/transparent_primary"
+            android:padding="8dp"
+            android:orientation="horizontal"
+            tools:ignore="Overdraw">
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:src="@drawable/ic_sections"
+                android:tint="@color/white"
+                app:civ_border_color="@color/colorPrimary"
+                app:civ_border_width="4dp"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                tools:ignore="ContentDescription"/>
+            <sapphyx.gsd.com.drywall.views.IntrusiveTextView
+                android:text="Categories"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:gravity="center_vertical"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"/>
+            <sapphyx.gsd.com.drywall.views.NumberTextview
+                android:id="@+id/categoryCount"
+                android:text="0"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/info_featured"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center|start"
+            android:background="@color/transparent_primary"
+            android:padding="8dp"
+            android:orientation="horizontal"
+            tools:ignore="Overdraw">
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:src="@drawable/ic_timeline"
+                app:civ_border_color="@color/colorPrimary"
+                android:tint="@color/white"
+                app:civ_border_width="4dp"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                tools:ignore="ContentDescription"/>
+            <sapphyx.gsd.com.drywall.views.IntrusiveTextView
+                android:text="Featured"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:gravity="center_vertical"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"/>
+            <sapphyx.gsd.com.drywall.views.NumberTextview
+                android:id="@+id/featuredCount"
+                android:text="0"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/info_providers"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center|start"
+            android:background="@color/transparent_primary"
+            android:padding="8dp"
+            android:orientation="horizontal"
+            tools:ignore="Overdraw">
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:src="@drawable/ic_adjust"
+                app:civ_border_color="@color/colorPrimary"
+                android:tint="@color/white"
+                app:civ_border_width="4dp"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                tools:ignore="ContentDescription"/>
+            <sapphyx.gsd.com.drywall.views.IntrusiveTextView
+                android:text="Providers"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:gravity="center_vertical"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"/>
+            <sapphyx.gsd.com.drywall.views.NumberTextview
+                android:id="@+id/providersCount"
+                android:text="0"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"/>
+        </LinearLayout>
+
+        <sapphyx.gsd.com.drywall.views.IntrusiveTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:text="Archives"
+            android:textColor="@color/colorPrimary"/>
+
+        <FrameLayout
+            android:id="@+id/app_container"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_margin="6dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical"
+                android:padding="4dp">
+                <sapphyx.gsd.com.drywall.views.IntrusiveTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="72dp"
+                    android:text="Drywall"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+                <sapphyx.gsd.com.drywall.views.IntrusiveTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="72dp"
+                    android:text="Drywall is an Open Source Wallpaper Dashboard! Fork the code on Github and help make it better!"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_gravity="start|center"
+                android:padding="8dp"
+                android:src="@mipmap/ic_launcher_round" />
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_gravity="end|center"
+                android:padding="8dp"
+                android:src="@drawable/ic_open_in_new"
+                android:tint="@color/colorPrimary" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/rate_container"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_margin="6dp">
+            <LinearLayout
+                android:layout_marginStart="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:orientation="vertical"
+                android:padding="4dp">
+                <sapphyx.gsd.com.drywall.views.IntrusiveTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rate It!"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+                <sapphyx.gsd.com.drywall.views.IntrusiveTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Leave me some helpful feedback with your experience with Drywall!"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_gravity="end|center"
+                android:padding="8dp"
+                android:src="@drawable/ic_open_in_new"
+                android:tint="@color/colorPrimary" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/more_container"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_margin="6dp">
+            <LinearLayout
+                android:layout_marginStart="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:orientation="vertical"
+                android:padding="4dp">
+                <sapphyx.gsd.com.drywall.views.IntrusiveTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More Apps"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+                <sapphyx.gsd.com.drywall.views.IntrusiveTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Check out some of my other app store products!"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_gravity="end|center"
+                android:padding="8dp"
+                android:src="@drawable/ic_open_in_new"
+                android:tint="@color/colorPrimary" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/donate_container"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_margin="6dp">
+            <LinearLayout
+                android:layout_marginStart="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:orientation="vertical"
+                android:padding="4dp">
+                <sapphyx.gsd.com.drywall.views.IntrusiveTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Donate"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+                <sapphyx.gsd.com.drywall.views.IntrusiveTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Drywall is a freeware open source app. Consider donating to a good cause!?"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_gravity="end|center"
+                android:padding="8dp"
+                android:src="@drawable/ic_open_in_new"
+                android:tint="@color/colorPrimary" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/privacy_container"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_margin="6dp">
+            <LinearLayout
+                android:layout_marginStart="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:orientation="vertical"
+                android:padding="4dp">
+                <sapphyx.gsd.com.drywall.views.IntrusiveTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GSD Privacy Policy"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_gravity="end|center"
+                android:padding="8dp"
+                android:src="@drawable/ic_open_in_new"
+                android:tint="@color/colorPrimary" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+    <com.leinardi.android.speeddial.SpeedDialOverlayLayout
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:clickable_overlay="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    <com.leinardi.android.speeddial.SpeedDialView
+        android:id="@+id/speedDial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom|end"
+        app:layout_behavior="@string/speeddial_scrolling_view_snackbar_behavior"
+        app:sdExpansionMode="top"
+        app:sdMainFabAnimationRotateAngle="90"
+        app:sdMainFabClosedSrc="@drawable/cube_send"
+        app:sdMainFabOpenedSrc="@drawable/ic_check"
+        app:sdOverlayLayout="@id/overlay"/>
+
+</FrameLayout>
