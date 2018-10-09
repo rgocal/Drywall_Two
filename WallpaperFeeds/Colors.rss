@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Drywall2</title>
+  <link>https://github.com/rgocal/Drywall/new/Drywall2/featured_walls.rss</link>
+  <description>A RSS dedicated to companion news.</description>
+  
+  <item>
+    <title>Red</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="http://mike.teczno.com/img/pantone/2012-tangerine-tango.png">
+]]>
+</content:encoded>
+  </item>
+  
+    <item>
+    <title>Orange</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://www.colorcombos.com/images/colors/FF9900.png">
+]]>
+</content:encoded>
+  </item>
+  
+    <item>
+    <title>Yellow</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="http://www.color-hex.com/palettes/33328.png">
+]]>
+</content:encoded>
+  </item>
+  
+   <item>
+    <title>Green</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="http://www.color-hex.com/palettes/1027.png">
+]]>
+</content:encoded>
+  </item>
+  
+    <item>
+    <title>Teal</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://i.ytimg.com/vi/12g2t7G54nA/maxresdefault.jpg">
+]]>
+</content:encoded>
+  </item>
+  
+   <item>
+    <title>Blue</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://www.solidbackgrounds.com/images/2560x1440/2560x1440-blue-solid-color-background.jpg">
+]]>
+</content:encoded>
+  </item>
+
+</channel>
+</rss>

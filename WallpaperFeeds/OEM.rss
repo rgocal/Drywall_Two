@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Drywall2</title>
+  <link>https://github.com/rgocal/Drywall/new/Drywall2/featured_walls.rss</link>
+  <description>A RSS dedicated to companion news.</description>
+  <item>
+    <title>Nougat Inspiration</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://cdn.wccftech.com/wp-content/uploads/2017/08/Android-Oreo-wallpapers-4-740x658.jpg">
+]]>
+</content:encoded>
+  </item>
+   <item>
+    <title>Nougat Inspiration</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://cdn.wccftech.com/wp-content/uploads/2017/08/Android-Oreo-wallpapers-5-740x658.jpg">
+]]>
+</content:encoded>
+  </item>
+
+</channel>
+
+</rss>

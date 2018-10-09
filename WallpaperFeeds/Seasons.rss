@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Drywall2</title>
+  <link>https://github.com/rgocal/Drywall/new/Drywall2/featured_walls.rss</link>
+  <description>A RSS dedicated to companion news.</description>
+  
+  <item>
+    <title>Stephen Ellis</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://images.unsplash.com/photo-1515094854286-bc6b38a1326f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e31d0fa575713ce0f73cfc4af1260048&auto=format&fit=crop&w=700&q=80">
+]]>
+</content:encoded>
+  </item>
+
+ <item>
+    <title>Stephen Ellis</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://images.unsplash.com/photo-1509310257498-b97f8488bf03?ixlib=rb-0.3.5&s=1d09b8ca6fd9e9d8af5e842ab9a2c919&auto=format&fit=crop&w=1100&q=80">
+]]>
+</content:encoded>
+  </item>
+
+ <item>
+    <title>Stephen Ellis</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://images.unsplash.com/photo-1518802508264-76256089cddb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c971a8873a8bdd42fa37fac18e4ef4c1&auto=format&fit=crop&w=1234&q=80">
+]]>
+</content:encoded>
+  </item>
+
+ <item>
+    <title>Stephen Ellis</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://images.unsplash.com/photo-1510739859545-e7b9e979de86?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aaedd76cd6f9439879dd0208146d5d1d&auto=format&fit=crop&w=967&q=80">
+]]>
+</content:encoded>
+  </item>
+
+</channel>
+
+</rss>

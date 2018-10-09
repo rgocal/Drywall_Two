@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Drywall2</title>
+  <link>https://github.com/rgocal/Drywall/new/Drywall2/featured_walls.rss</link>
+  <description>A RSS dedicated to companion news.</description>
+  
+ <item>
+    <title>Ivars Utinsns</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://images.unsplash.com/photo-1529401990940-3a1aecf05547?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8238b8abd8944e93f420c75663f9905c&auto=format&fit=crop&w=800&q=80">
+]]>
+</content:encoded>
+  </item>
+  
+ <item>
+    <title>Ben den Engelsen</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://images.unsplash.com/photo-1529611756594-6a4fef31992a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2df3670b005837cd728ee1ef38c57bcc&auto=format&fit=crop&w=968&q=80">
+]]>
+</content:encoded>
+  </item>
+  
+  <item>
+    <title>Almos Bechtold</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://images.unsplash.com/photo-1527702847878-05fc11667379?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2b32a9bed0282f5baedf51119fd039eb&auto=format&fit=crop&w=968&q=80">
+]]>
+</content:encoded>
+  </item>
+  
+  <item>
+    <title>Louis Maniquet</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://images.unsplash.com/photo-1527672809634-04ed36500acd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=53b755838d4ed8384da15a186d619690&auto=format&fit=crop&w=634&q=80">
+]]>
+</content:encoded>
+  </item>
+  
+    <item>
+    <title>Rusian Bardash</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://images.unsplash.com/photo-1527170733497-fa4cbd5e227b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2df8f004ea8474dbf264dae2680a9b3f&auto=format&fit=crop&w=1050&q=80">
+]]>
+</content:encoded>
+  </item>
+  
+   <item>
+    <title>Diego Santos</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://images.unsplash.com/photo-1527104524329-28dcd9d31fb4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ff75104ef7f3e441cab6349cfae8ece7&auto=format&fit=crop&w=675&q=80">
+]]>
+</content:encoded>
+  </item>
+  
+  <item>
+    <title>Aaron Huber</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://images.unsplash.com/photo-1523995669073-7f16bd0e82f3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=48781832d717456773f405d425e7e773&auto=format&fit=crop&w=967&q=80">
+]]>
+</content:encoded>
+  </item>
+  
+    <item>
+    <title>Ruth Troughton</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://images.unsplash.com/photo-1505896202-4fe971e982fa?ixlib=rb-0.3.5&s=950fdaedddaf298bfd82e3788e084f8d&auto=format&fit=crop&w=969&q=80">
+]]>
+</content:encoded>
+  </item>
+
+</channel>
+</rss>
