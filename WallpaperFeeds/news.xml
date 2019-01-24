@@ -1,7 +1,7 @@
 <news>
 
 <newsitem>
-<text>A new update is available for Drywall, Be sure to receive it!</text>
+<text>A recent bug was discovered that made Drywall crash on Android 9.x devices. This has been fixed in the latest update.</text>
 </newsitem>
 
 </news>
