@@ -2,7 +2,7 @@
 A powerful and open source Wallpaper Provider App for android based on Material 2 design
 
 **2019 Project Notice**
-I will be working behind the scenes to be converting Drywall into a fully operational Wallpaper Dashboard android library this year. It will take some time, so please be patient with this as I have other projects to prioitize. This will be an exciting jump for Drywall as well as forge a new community behind it. Stay Tuned for updates!
+I will be working behind the scenes to be updating Drywall to a cleaner and more reliable experience based on material components. Initially i had plans to buikd a library out of it buts been to much of a project to begin so i will rebuild it so its easier to build over as your own app. 
 **FIN**
 
 Drywall is a wallpaper provider I wrote from scratch as a replacement for Google Wallpapers. Unlike many wallpaper dashboards, this is an all in one dashboard and toolkit. The Dashboard counts all the wallpapers and categories for the user while offering wallpaper tools to Blur, Crop, Set a custom image, Change the offset and Rip the current wallpaper to the users memory. Wallpapaers are loaded from rss files the dev manages from the outside.
